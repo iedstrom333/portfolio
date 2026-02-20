@@ -136,7 +136,6 @@ export function About() {
           </motion.div>
         </div>
       </div>
-      <DentilBorder flip />
     </section>
   );
 }

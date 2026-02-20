@@ -154,7 +154,6 @@ export function Contact() {
           </div>
         </Sparkles>
       </div>
-      <DentilBorder flip />
     </section>
   );
 }

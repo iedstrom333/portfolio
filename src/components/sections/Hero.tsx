@@ -195,7 +195,6 @@ export function Hero() {
         <ChevronDown size={20} />
       </motion.div>
 
-      <DentilBorder flip />
     </section>
   );
 }

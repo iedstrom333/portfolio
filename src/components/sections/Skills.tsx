@@ -144,7 +144,6 @@ export function Skills() {
           ))}
         </div>
       </div>
-      <DentilBorder flip />
     </section>
   );
 }

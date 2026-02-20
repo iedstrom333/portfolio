@@ -110,7 +110,6 @@ export function Projects() {
           )}
         </AnimatePresence>
       </div>
-      <DentilBorder flip />
     </section>
   );
 }

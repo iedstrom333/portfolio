@@ -182,7 +182,6 @@ export function Experience() {
           </div>
         </div>
       </div>
-      <DentilBorder flip />
     </section>
   );
 }

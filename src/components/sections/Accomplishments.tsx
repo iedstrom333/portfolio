@@ -68,7 +68,6 @@ export function Accomplishments() {
         </motion.div>
         </div>
       </div>
-      <DentilBorder flip />
     </section>
   );
 }
