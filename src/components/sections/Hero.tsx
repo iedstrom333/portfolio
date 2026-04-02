@@ -92,7 +92,7 @@ export function Hero() {
                 View Projects
               </a>
               <a
-                href="/resume.pdf"
+                href="/Ina_Edstrom.pdf"
                 download
                 className="border border-rose text-rose text-sm tracking-widest uppercase px-6 py-3 hover:bg-rose hover:text-ivory transition-colors"
                 style={{ fontFamily: "var(--font-inter)" }}

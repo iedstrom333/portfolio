@@ -97,7 +97,7 @@ export function Navbar() {
           })}
           <li>
             <a
-              href="/resume.pdf"
+              href="/Ina_Edstrom.pdf"
               download
               className="text-sm tracking-widest uppercase border border-rose text-rose px-4 py-1.5 hover:bg-rose hover:text-ivory transition-colors"
               style={{ fontFamily: "var(--font-inter)", fontWeight: 400 }}
@@ -136,7 +136,7 @@ export function Navbar() {
             ))}
             <li>
               <a
-                href="/resume.pdf"
+                href="/Ina_Edstrom.pdf"
                 download
                 className="text-sm tracking-widest uppercase text-rose"
                 style={{ fontFamily: "var(--font-inter)" }}
