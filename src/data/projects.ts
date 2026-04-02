@@ -181,6 +181,108 @@ export const projects: Project[] = [
     category: "systems",
     featured: false,
   },
+  {
+    id: "uvm-apb-uvc",
+    title: "UVM APB UVC",
+    shortDescription:
+      "Designed and implemented a Universal Verification Methodology (UVM) agent for the AMBA APB protocol.",
+    fullDescription:
+      "Built a complete UVM Agent for the AMBA APB (Advanced Peripheral Bus) protocol, including a driver, monitor, sequencer, and scoreboard. Verified correct bus transactions using constrained-random stimulus and functional coverage.",
+    tags: ["UVM", "SystemVerilog", "Python"],
+    category: "systems",
+    links: {
+      github: "https://github.com/iedstrom333/UVM-APB-UVC",
+    },
+    featured: false,
+  },
+  {
+    id: "microprocessor-architectures",
+    title: "Microprocessor Architectures — SimpleScalar",
+    shortDescription:
+      "Simulated and analyzed microprocessor architectures using SimpleScalar, making design tradeoffs based on performance and cost.",
+    fullDescription:
+      "Used the SimpleScalar toolset to simulate and analyze microprocessor architectures at a detailed level. Evaluated design decisions and tradeoffs such as cache size, branch prediction, and pipeline depth, balancing performance targets against cost constraints. Associated with University of South Alabama.",
+    tags: ["SimpleScalar", "Computer Architecture"],
+    category: "systems",
+    featured: false,
+  },
+  {
+    id: "tomasulo",
+    title: "Tomasulo Algorithm Scheduler",
+    shortDescription:
+      "Implemented complete Tomasulo out-of-order scheduling with reservation stations and register result status tracking.",
+    fullDescription:
+      "Built a detailed simulation of the Tomasulo algorithm for out-of-order instruction execution. Tracked the full schedule and bookkeeping in reservation stations and the register result status table, including handling loops and data dependencies.",
+    tags: ["Computer Architecture", "Out-of-Order Execution"],
+    category: "systems",
+    featured: false,
+  },
+  {
+    id: "pipelines",
+    title: "5-Stage Pipeline Simulation",
+    shortDescription:
+      "Simulated instruction flow through a 5-stage processor pipeline, analyzing uniformity and non-uniformity scenarios.",
+    fullDescription:
+      "Implemented a 5-stage processor pipeline simulation (IF, ID, EX, MEM, WB) and analyzed how instructions flow through the pipeline under full uniformity, non-uniformity, and mixed uniformity conditions.",
+    tags: ["Computer Architecture", "Pipeline"],
+    category: "systems",
+    featured: false,
+  },
+  {
+    id: "mips-subroutines",
+    title: "MIPS Subroutines",
+    shortDescription:
+      "Implemented rock-paper-scissors and math subroutines in MIPS assembly language.",
+    fullDescription:
+      "Wrote subroutines in MIPS assembly implementing a rock-paper-scissors game and various mathematical operations, practicing calling conventions, register management, and the MIPS instruction set architecture.",
+    tags: ["MIPS", "Assembly"],
+    category: "systems",
+    featured: false,
+  },
+  {
+    id: "lmc-simulator",
+    title: "Little Man Computer Simulator",
+    shortDescription:
+      "Wrote LMC assembly programs for number storage, formula evaluation, and loop-based countdown.",
+    fullDescription:
+      "Used a Little Man Computer (LMC) simulator to write low-level assembly programs: storing and outputting three user-provided numbers; computing y = 5 − x and classifying the result as positive or negative; and counting down from a user-provided number to zero using loops.",
+    tags: ["Assembly", "LMC", "Computer Architecture"],
+    category: "systems",
+    featured: false,
+  },
+  {
+    id: "format-string-vulnerabilities",
+    title: "Format String Vulnerabilities",
+    shortDescription:
+      "Explored and demonstrated format string vulnerabilities in C programs.",
+    fullDescription:
+      "Investigated format string vulnerabilities in C programs, demonstrating how unsanitized format specifiers can be exploited to read from or write to arbitrary memory addresses.",
+    tags: ["C", "Security", "Systems Programming"],
+    category: "systems",
+    featured: false,
+  },
+  {
+    id: "program-vulnerabilities",
+    title: "Program Vulnerabilities",
+    shortDescription:
+      "Identified and exploited common program vulnerabilities through a series of security exercises.",
+    fullDescription:
+      "Completed a series of security exercises identifying and exploiting common program vulnerabilities including buffer overflows and other memory safety issues in compiled C programs.",
+    tags: ["C", "Security", "Systems Programming"],
+    category: "systems",
+    featured: false,
+  },
+  {
+    id: "performance",
+    title: "Performance Analysis",
+    shortDescription:
+      "Analyzed processor performance characteristics and benchmarked microarchitecture configurations.",
+    fullDescription:
+      "Conducted performance analysis on processor designs, evaluating throughput and efficiency across different microarchitecture configurations and workloads.",
+    tags: ["Computer Architecture", "Performance Analysis"],
+    category: "systems",
+    featured: false,
+  },
 ];
 
 export const featuredProjects = projects.filter((p) => p.featured);
